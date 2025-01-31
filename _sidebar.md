@@ -4,3 +4,8 @@
     - [:baby_chick: Create a new app](createanewapp.md)
         - [:desert_island: Strucure](createanewapp.md?id=structure)
     - [:door: Create a new route group](create-a-new-route-group.md)
+    - [:computer: Create a new service](create-a-new-service.md)
+    - [:hotsprings: Create a new repository](create-a-new-repository.md)
+    - [:bookmark_tabs: Log](logs.md)
+    - [:books: Database](database.md)
+    - [:hammer_and_wrench: Config](config.md)
