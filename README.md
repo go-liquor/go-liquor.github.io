@@ -11,7 +11,7 @@ import (
 	"github.com/my-project/my-project/internal/adapters/server/http"
 	"github.com/my-project/my-project/internal/app/services"
 
-	"github.com/go-liquor/liquor/sdk/app"
+	"github.com/go-liquor/liquor-sdk/app"
 )
 
 func main() {

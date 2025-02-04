@@ -34,7 +34,7 @@ and update the `internal/adapters/database/migrations/migrations.go` with regist
 ```go
 package migrations
 
-import "github.com/go-liquor/liquor/sdk/app"
+import "github.com/go-liquor/liquor-sdk/app"
 
 var Migrations = app.RegisterMigrations(
     createUserTableMigrate,

@@ -22,7 +22,7 @@ package services
 
 import (
         "go.uber.org/zap"
-        "github.com/go-liquor/liquor/sdk/config"
+        "github.com/go-liquor/liquor-sdk/config"
 )
 
 type OrderService struct {

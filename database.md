@@ -19,7 +19,7 @@ To enable you need enable module:
 ```bash
 liquor app enable database/mongodb
 # or
-go get github.com/go-liquor/liquor/sdk/modules/database/mongodb
+go get github.com/go-liquor/liquor-sdk/modules/database/mongodb
 ```
 
 in `cmd/app/main.go` add module:
@@ -30,8 +30,8 @@ package main
 import (
 	"github.com/go-liquor/framework/internal/adapters/server/http"
 	"github.com/go-liquor/framework/internal/app/services"
-	"github.com/go-liquor/liquor/sdk/app"
-    "github.com/go-liquor/liquor/sdk/modules/database/mongodb" // add this
+	"github.com/go-liquor/liquor-sdk/app"
+    "github.com/go-liquor/liquor-sdk/modules/database/mongodb" // add this
 )
 
 func main() {
@@ -57,7 +57,7 @@ To enable you need enable module:
 ```bash
 liquor app enable database/mysql
 # or
-go get github.com/go-liquor/liquor/sdk/modules/database/mysql
+go get github.com/go-liquor/liquor-sdk/modules/database/mysql
 ```
 
 in `cmd/app/main.go` add module:
@@ -68,8 +68,8 @@ package main
 import (
 	"github.com/go-liquor/framework/internal/adapters/server/http"
 	"github.com/go-liquor/framework/internal/app/services"
-	"github.com/go-liquor/liquor/sdk/app"
-    "github.com/go-liquor/liquor/sdk/modules/database/mysql" // add this
+	"github.com/go-liquor/liquor-sdk/app"
+    "github.com/go-liquor/liquor-sdk/modules/database/mysql" // add this
 )
 
 func main() {
@@ -92,7 +92,7 @@ To enable you need enable module:
 ```bash
 liquor app enable database/postgres
 # or
-go get github.com/go-liquor/liquor/sdk/modules/database/postgres
+go get github.com/go-liquor/liquor-sdk/modules/database/postgres
 ```
 
 in `cmd/app/main.go` add module:
@@ -103,8 +103,8 @@ package main
 import (
 	"github.com/go-liquor/framework/internal/adapters/server/http"
 	"github.com/go-liquor/framework/internal/app/services"
-	"github.com/go-liquor/liquor/sdk/app"
-    "github.com/go-liquor/liquor/sdk/modules/database/postgres" // add this
+	"github.com/go-liquor/liquor-sdk/app"
+    "github.com/go-liquor/liquor-sdk/modules/database/postgres" // add this
 )
 
 func main() {
@@ -126,7 +126,7 @@ To enable you need enable module:
 ```bash
 liquor app enable database/sqlite
 # or
-go get github.com/go-liquor/liquor/sdk/modules/database/sqlite
+go get github.com/go-liquor/liquor-sdk/modules/database/sqlite
 ```
 
 in `cmd/app/main.go` add module:
@@ -137,8 +137,8 @@ package main
 import (
 	"github.com/go-liquor/framework/internal/adapters/server/http"
 	"github.com/go-liquor/framework/internal/app/services"
-	"github.com/go-liquor/liquor/sdk/app"
-    "github.com/go-liquor/liquor/sdk/modules/database/sqlite" // add this
+	"github.com/go-liquor/liquor-sdk/app"
+    "github.com/go-liquor/liquor-sdk/modules/database/sqlite" // add this
 )
 
 func main() {

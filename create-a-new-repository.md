@@ -57,7 +57,7 @@ package main
 import (
 	"my-pkg/internal/adapters/server/http"
     "my-pkg/internal/adapters/database/repository"
-	"github.com/go-liquor/liquor/sdk/app"
+	"github.com/go-liquor/liquor-sdk/app"
 )
 
 func main() {
