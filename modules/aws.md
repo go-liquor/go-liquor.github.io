@@ -43,6 +43,15 @@ func main() {
 }
 ```
 
+Add this in your `config.yaml`:
+
+```yaml
+aws:
+   region: <DEFAULT_REGION>
+   accessKeyId: <ACCESS_KEY_ID>
+   secretAccessKey: <SECRET_ACCESS_KEY>
+```
+
 ## AWS Services
 
 ### DynamoDB Client
