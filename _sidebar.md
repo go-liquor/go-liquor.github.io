@@ -12,3 +12,4 @@
     - [:hammer_and_wrench: Config](config.md)
     - [:outbox_tray: Modules](modules/modules.md)
         - [:cloud: AWS](modules/aws.md)
+        - [:ship: Kubernetes](modules/kubernetes.md)
