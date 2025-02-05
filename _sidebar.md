@@ -10,3 +10,5 @@
     - [:bookmark_tabs: Log](logs.md)
     - [:books: Database](database.md)
     - [:hammer_and_wrench: Config](config.md)
+    - [:outbox_tray: Modules](modules/modules.md)
+        - [:cloud: AWS](modules/aws.md)
