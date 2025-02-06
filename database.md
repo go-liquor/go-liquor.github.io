@@ -11,6 +11,12 @@ To avoid importing unnecessary libraries, Liquor only enables the libraries you 
 - [Configurations](#configurations)
 
 
+
+
+## Available databases drivers
+
+Enable only the drivers you are going to use
+
 ### MongoDB
 
 The MongoDB uses the [mongo-driver](https://www.mongodb.com/pt-br/docs/drivers/go/current/quick-start/)
@@ -44,10 +50,6 @@ func main() {
 	)
 }
 ```
-
-## Available databases drivers
-
-Enable only the drivers you are going to use
 
 ### MySQL
 
