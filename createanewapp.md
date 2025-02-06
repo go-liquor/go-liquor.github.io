@@ -19,5 +19,5 @@ cp config.example.yaml config.yaml
 Run your application using the initial configurations.
 
 ```bash
-go run cmd/app/main.go
+liquor run
 ```
