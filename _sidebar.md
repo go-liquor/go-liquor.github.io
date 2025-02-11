@@ -17,5 +17,7 @@
         - [:hatching_chick: String](helpers/lqstring.md)
     - [:outbox_tray: Modules](modules/modules.md)
         - [:cloud: AWS](modules/aws.md)
+        - [:fire: Firebase](modules/firebase.md)
         - [:ship: Kubernetes](modules/kubernetes.md)
         - [:department_store: Redis](modules/redis.md)
+        
