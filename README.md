@@ -7,20 +7,12 @@
 package main
 
 import (
-	"github.com/my-project/my-project/internal/adapters/database/migrations"
-	"github.com/my-project/my-project/internal/adapters/server/http"
-	"github.com/my-project/my-project/internal/app/services"
-
 	"github.com/go-liquor/liquor-sdk/app"
 )
 
 func main() {
 	app.NewApp(
-		http.Server,
-		migrations.Migrations,
-		app.RegisterService(
-			services.NewInitialService,
-		),
+		// put here the modules and applications resources
 	)
 }
 
